@@ -8,7 +8,9 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 # Constants
-MODEL_PATH = '/Users/devanshbrahmbhatt/Desktop/Stock_ML/Stock_ML/Stock Predictions Model.keras'
+import os
+# Use a model path relative to this file so the app works on any machine
+MODEL_PATH = os.path.join(os.path.dirname(__file__), 'Stock Predictions Model.keras')
 DEFAULT_STOCK = 'GOOG'
 DEFAULT_START_DATE = pd.to_datetime('2012-01-01')
 DEFAULT_END_DATE = pd.to_datetime('2022-12-31')
