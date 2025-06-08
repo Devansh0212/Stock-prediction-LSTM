@@ -41,7 +41,7 @@ This project is a **Stock Market Prediction and Visualization Tool** built with 
 ├──📄 app.py                        # Main Streamlit application to run the web app
 ├──📄 requirements.txt              # Python dependencies for the project
 ├──📄 README.md                     # Project documentation (this file)
-└──📄 Stock_Predictions_Model.keras  # Pre-trained LSTM model file for stock predictions
+└──📄 Stock Predictions Model.keras  # Pre-trained LSTM model file for stock predictions
  ```
 ---
 
@@ -70,8 +70,8 @@ This will install all the necessary libraries, including Streamlit, TensorFlow, 
 3. **Add the Pre-trained Model:**
 
 To enable the stock price prediction feature, you need to add the pre-trained LSTM model.
-	1.	Download or use your own pre-trained LSTM model file. The file should be in the .keras format, for example, Stock_Predictions_Model.keras.
-	2.	Place the Stock_Predictions_Model.keras file in the root directory of the project (the same directory as app.py).
+	1.	Download or use your own pre-trained LSTM model file. The file should be in the .keras format, for example, Stock Predictions Model.keras.
+	2.	Place the Stock Predictions Model.keras file in the root directory of the project (the same directory as app.py).
 
 The directory structure should look like this:
  ```bash
@@ -79,7 +79,7 @@ The directory structure should look like this:
 ├── 📄 app.py
 ├── 📄 requirements.txt
 ├── 📄 README.md
-└── 📄 Stock_Predictions_Model.keras   # Pre-trained LSTM model
+└── 📄 Stock Predictions Model.keras   # Pre-trained LSTM model
  ```
 
 ## ⚙️ Usage
