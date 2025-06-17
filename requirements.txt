@@ -1,8 +1,10 @@
-streamlit==1.24.0
-yfinance==0.2.24
-keras==2.14.0
-tensorflow==2.14.0
-matplotlib==3.8.0
-pandas==1.5.3
+streamlit==1.22.0
+yfinance==0.2.18
 numpy==1.23.5
-scikit-learn==1.2.2
+pandas==1.5.2
+matplotlib==3.6.2
+scikit-learn==1.2.0
+tensorflow==2.11.0  
+newsapi-python==0.2.6
+textblob==0.17.1
+plotly==5.11.0
